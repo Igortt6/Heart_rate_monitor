@@ -1,0 +1,36 @@
+.reviews {
+    padding-bottom: 70px;
+    &__wrapper {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        img {
+            width: 169px;
+            height: 169px;
+            margin-right: 69px;
+        }
+    }
+    &__text {
+        flex-direction: column;
+    }
+    &__name {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+    }
+    &__achievement {
+        margin-top: 10px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+    }
+    &__descr {
+        margin-top: 19px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+    }
+    
+}

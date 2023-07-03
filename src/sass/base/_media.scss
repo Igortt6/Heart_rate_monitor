@@ -1,0 +1,156 @@
+@media (max-width:1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .promo {
+        padding: 21px 15px 93px 15px;
+    }
+    .container {
+        padding: 0 15px 0 15px;
+    }
+	.carousel {
+		&__inner {
+			img {
+				max-width: 750px;
+			}
+		}
+	}
+
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px 0 15px;
+    }
+    .header {
+        &__logo {
+        width: 33%;
+            img {
+                height:auto;
+                width: 100%;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+		
+    }   
+    .promo {
+        padding: 21px 15px 93px 15px;
+        &__wraper {
+            margin-top: 70px;
+        }
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            color: #ffffff;
+            font-size: 20px;
+        }
+        &__icons {
+            margin-top: 50px;
+        }   
+    }
+    .title_left {
+        font-size: 32px;
+    }
+    .consultation {
+        &__descr {
+            margin-top: 45px;
+        }
+    }
+	.carousel {
+		&__inner {
+            width: 550px;
+			
+		}
+	}
+}   
+
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        &__official {
+            display: none;
+        }
+        &__logo {
+            width: 300px;
+        }
+        &__contacts {
+            align-items: center;
+        }
+    }
+    .button {
+        margin-top: 0px;
+        &_main {
+            width: 250px;
+            height: 40px;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
+    .promo {
+        padding: 21px 15px 50px 15px;    
+        &__wraper{
+            align-items: center;
+        }
+        &__header {
+            font-size: 26px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 18px;
+            text-align: center;
+        }
+        &__icons {
+            width: 100%;
+        }
+    }
+    .title_left {
+        font-size: 22px;
+        text-align: center;
+    }
+    .consultation {
+        &__descr {
+            margin-top: 25px;
+            font-size: 18px;
+        }
+    }
+    .advantage {
+        &__wraper {
+            margin-top: 30px;
+            flex-direction: column;
+        }
+        &__descr {
+            margin: 0 auto;
+        }
+        &__subheader {
+        margin-top: 5px;
+        }
+        &__icon {
+            margin-top: 10px;   
+
+        }
+    }
+	.carousel {
+		&__inner {
+            max-width: 300px;
+		}
+	}
+}
+@media (max-width: 320px) {
+    .consultation {
+        padding: 65px 0 65px 0;
+    }
+    .title {
+        font-size: 18px
+        
+    }
+    .feed-form {
+        width: 100%;
+    }
+}

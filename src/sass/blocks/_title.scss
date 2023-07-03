@@ -1,0 +1,19 @@
+.title {
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 70px;
+    text-transform: uppercase;
+    &_left {
+        padding-top: 0;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: left;
+        
+    }
+    &__reviews {
+        padding-top: 0;
+    }
+}

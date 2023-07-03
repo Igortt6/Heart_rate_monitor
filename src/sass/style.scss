@@ -1,0 +1,38 @@
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/pageup';
+@import 'base/animation';
+
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/battons';
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+@import 'blocks/title';
+@import 'blocks/advantage';
+@import 'blocks/consultation';
+@import 'blocks/feed-form';
+@import 'blocks/carousel';
+
+
+@import 'base/media';
+@import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modals'

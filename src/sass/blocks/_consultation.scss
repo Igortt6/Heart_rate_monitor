@@ -1,0 +1,17 @@
+.consultation {
+    min-height: 680px;
+    background: url('../img/bg/bg_data-form.png')  center (center/cover) no-repeat;
+    padding: 100px 0 92px 0;
+    &__descr {
+        margin-top: 80px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+            }
+    .error {
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
